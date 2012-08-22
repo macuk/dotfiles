@@ -1,0 +1,10 @@
+[user]
+	name = Piotr Macuk
+	email = piotr@macuk.pl
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+[apply]
+	whitespace = nowarn
