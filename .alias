@@ -27,4 +27,4 @@ alias rdb='be rails db -p'
 alias migr='ber db:migrate'
 alias roll='ber db:rollback'
 
-alias pgs="sudo pg_ctlcluster 8.4 main start"
+alias pgs="sudo pg_ctlcluster 9.1 main start"
