@@ -1,0 +1,2 @@
+find $1 -name *.*rb -exec sed -i 's/\s*$//' {} \;
+find $1 -name *.html.* -exec sed -i 's/\s*$//' {} \;

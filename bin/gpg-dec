@@ -1,0 +1,4 @@
+#!/bin/bash
+
+INPUT=`echo $1 | sed 's/.gpg//'`
+gpg --output $INPUT --decrypt $1
