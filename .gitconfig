@@ -8,3 +8,5 @@
 	ui = true
 [apply]
 	whitespace = nowarn
+[push]
+	default = simple
