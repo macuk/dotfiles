@@ -91,3 +91,5 @@ set number
 inoremap hh <Esc>
 inoremap jj <Esc>
 inoremap kk <Esc>
+
+execute pathogen#infect()

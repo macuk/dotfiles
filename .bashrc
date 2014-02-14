@@ -6,11 +6,15 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+# PS1='[\u@\h \W]\$ '
 
 if [ -f "$HOME/.alias" ] ; then
     . "$HOME/.alias"
 fi
+
+# if [ -f "$HOME/.prompt" ] ; then
+#     . "$HOME/.prompt"
+# fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/bin
